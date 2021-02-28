@@ -1,0 +1,102 @@
+
+.dropDownbtn {
+    background: var(--backgroud);
+    color: black;
+
+    padding: 1rem;
+    font-size: 1rem;
+
+    transition: background-color  100ms linear;
+    transition: color  100ms linear;
+}
+
+.headerContainer header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 1.5rem;
+}
+
+.dropDownbtn img {
+    font-size: 1rem;
+    display: inline;
+    color: black;
+
+}
+
+.headerContainer nav {
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    text-align: center;
+}
+
+.headerContainer {
+    background-color: white;
+
+    padding: 0.4rem 0 2rem;
+
+    height: 5rem;
+}
+
+.dropDown {
+    position: relative;
+    display: inline-block;
+
+    margin: 0 1rem;
+}
+
+.dropDownContent a:hover {
+    background-color: var(--main-blue);
+    color: var(--white);
+}
+
+.dropDownbtn:hover {
+    background-color: var(--main-blue);
+    color: var(--white);
+}
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+
+    text-align: center;
+
+    border-bottom: 2.5px solid #cccaca ;
+    background-color: white;
+    min-width: 125%;
+    right: 0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropDownContent a {
+    color: var(--text);
+    padding: 0.4rem 1rem;
+    display: block;
+
+    transition: background-color  100ms linear;
+    transition: color  100ms linear;
+}
+
+.dropDown:hover .dropDownContent {
+    display: block;
+}
+
+
+.logo a {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.logo hr {
+    border-top: 0.2rem solid var(--main-blue);
+}
+.logo {
+    padding: 0 1.5rem;
+}

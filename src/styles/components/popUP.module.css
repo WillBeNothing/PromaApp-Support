@@ -1,0 +1,73 @@
+.overlay {
+    background-color: rgba(242, 243, 245, 0.8);
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: var(--white);
+
+    width: 100%;
+    max-width: 400px;
+
+    padding: 2rem 3rem ;
+    border-radius: 5px;
+    box-shadow: 0 0 60 rgba(0, 0, 0, 0.05 );
+
+    text-align: center;
+    position: relative;
+}
+
+.container header {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--main-blue);
+}
+
+.container > button {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    background: transparent;
+    border: 0;
+    font-size: 0;
+}
+
+.loginContainer {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer label {
+    font-size: 1rem;
+    display: flex;
+    align-self: flex-start;
+}
+
+.loginContainer input {
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-line-in-white);
+    padding: 0 1.6rem
+}
+
+.loginContainer button {
+    margin: 1.4rem 0;
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: var(--white);
+}

@@ -1,0 +1,110 @@
+.container form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.textInformations {
+    display: flex;
+    flex-direction: column;
+}
+
+.container input {
+    margin-top: 0.5rem;
+}
+
+.container select {
+    margin-top: 0.5rem;
+}
+
+.container label {
+    margin-top: 0.5rem ;
+}
+
+.container input {
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-line-in-white);
+    padding: 0 1.3rem;
+
+    font-size: 1rem;
+}
+
+.container select {
+    font-size: 1rem;
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-line-in-white);
+    padding: 0 1.3rem;
+}
+
+.container option {
+    border-radius: 5px;
+    border: 1px solid var(--color-line-in-white);
+    padding: 0 1.3rem;
+}
+
+.inputImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer .newImage {
+  width: 96px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputImage img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.container input[type=file] {
+  display: none;
+  visibility: hidden;
+}
+
+.imagePreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form > button {
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: var(--white);
+
+    transition: background-color 0.2s linear;
+}
+
+.container form > button:hover {
+    background-color: var(--dark-green);
+}
+
+.loading {
+    background-color: rgba(78, 77, 77, 0.4);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

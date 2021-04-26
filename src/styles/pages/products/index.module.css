@@ -1,0 +1,156 @@
+.container input {
+    margin-top: 0.5rem;
+}
+
+.container form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.textInformations {
+    display: flex;
+    flex-direction: column;
+}
+
+.container select {
+    margin-top: 0.5rem;
+}
+
+.container label {
+    margin-top: 0.5rem ;
+}
+
+.container input[type=text] {
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-line-in-white);
+    padding: 0 1.3rem;
+
+    font-size: 1rem;
+}
+
+.container select {
+    font-size: 1rem;
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-line-in-white);
+    padding: 0 1.3rem;
+}
+
+.container option {
+    border-radius: 5px;
+    border: 1px solid var(--color-line-in-white);
+    padding: 0 1.3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form > button {
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: var(--white);
+
+    transition: background-color 0.2s linear;
+}
+
+.container form > button:hover {
+    background-color: var(--dark-green);
+}
+.container strong {
+    margin: 0.3rem 0;
+}
+
+.buttons {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.disabledButton {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+
+    background-color: rgb(109, 109, 109);
+    color: var(--white);
+
+    cursor: not;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.2s linear;
+}
+
+.abledButton {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+
+    background-color: var(--green);
+    color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.2s linear;
+}
+
+.abledButton:hover {
+    background-color: var(--dark-green);
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showImage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+
+.showImage img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    background-color: rgba(78, 77, 77, 0.4);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

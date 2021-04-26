@@ -1,0 +1,104 @@
+.productsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 0;    
+    margin: 1.5rem 0rem;
+}
+.productsContainer section{
+    background-color: white;
+    border-radius: 5%;
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    width: 50%;
+}
+
+.productsContainer section img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 8rem;
+    object-fit: cover;
+}
+
+
+.informations div {
+    margin: 1rem 0;
+}
+
+.name p{
+    font-size: 0.9rem;
+    stroke: 1rem;
+}
+
+.name a{
+    font-weight: 700;
+    font-size: 1.8em;
+
+    transition: color 0.2s linear;
+}
+
+.name a:hover{
+    color: var(--main-blue);
+}
+
+.addtionalInformations {
+    flex-direction: row;
+
+
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.activedSituation {
+    cursor: default;
+
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--green);
+}
+
+.disabledSituation {
+    cursor: default;
+
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--red);
+}
+
+.price {
+    display: flex;
+}
+
+.price strong {
+    margin-right: 3rem;
+    margin-left: 0.2rem;
+}
+

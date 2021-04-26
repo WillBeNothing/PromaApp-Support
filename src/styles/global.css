@@ -3,6 +3,10 @@
   --text: #202020;
   --main-blue: #3128b6;
   --white: #ffffff;
+  --green: #4CD62B;
+  --dark-green: #29b107;
+  --red: #ec516b;
+  --color-line-in-white: #e9dfdf;
 }
 
 * {

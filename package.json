@@ -8,9 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@types/react-router-dom": "^5.1.7",
+    "axios": "^0.21.1",
+    "js-cookie": "^2.2.1",
     "next": "10.0.7",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-currency-input-field": "^3.3.0",
+    "react-dom": "17.0.1",
+    "react-loading": "^2.0.3",
+    "react-phone-input-2": "^2.14.0",
+    "react-router-dom": "^5.2.0",
+    "react-switch": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.31",
